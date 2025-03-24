@@ -387,5 +387,3 @@ def run_stake_game(game_type):
         except Exception as e:
             logger.error(f"Failed to delete geckodriver.log: {e}")
     logger.info(f'Stopping {game_type} process...')
-
-run_stake_game("crash")
